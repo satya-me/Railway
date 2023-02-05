@@ -1,7 +1,7 @@
 const http = require("node:http");
 
-const hostname = "https://railway-production-421d.up.railway.app";
-const port = PORT;
+const hostname = `0.0.0.0`;
+const port = $PORT;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
